@@ -1,0 +1,176 @@
+@media screen and (max-width: 1600px) {
+  .body-div-sbc {
+    width: 75% !important;
+  }
+}
+@media screen and (max-width: 810px) {
+  .body-div-sbc {
+    width: 100% !important;
+  }
+}
+@media screen and (min-width: 332px) {
+  .card-img {
+    width: 100%;
+    height: 175px;
+  }
+
+  .c-sub-img {
+    position: relative;
+    top:  0px;
+    height: 98%;
+  }
+}
+/* ---------------Top Bags---------------- */
+@media screen and (min-width: 830px) {
+  .search {
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(50, 50, 50);
+    position: relative;
+    color: #fff;
+    top: 2px;
+    left: 40vw;
+    display: block;
+  }
+  #search {
+    position: relative;
+    top: 3px;
+    right: 3px;
+    color: rgb(0, 200, 255);
+    float: inline-end;
+    font-size: 23px;
+  }
+  .search:hover {
+    cursor: pointer;
+  }
+  .menu {
+    position: absolute;
+    right: 200px;
+    color: aliceblue;
+    cursor: pointer;
+    overflow: hidden;
+  }
+}
+@media screen and (min-width: 430px) {
+  .cards-contnr {
+    grid-template-columns: 32.1% 32.1% 32.1%;
+  }
+
+  .card-img {
+    width: 100%;
+    height: 175px;
+  }
+
+  .c-sub-img {
+    height: 175px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .cards-contnr {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (min-width: 811px) {
+  .header-contnr {
+    height: 55px;
+  }
+  .logo-menu-cntnr {
+    box-shadow: none;
+  }
+  .logo-text-menu {
+    background-image: linear-gradient(to right, rgba(58, 58, 58, 0.883), #000);
+  }
+  .logo-contnr {
+    left: 12vw;
+  }
+  .logo-text {
+    left: 13vw;
+  }
+  #verified-font {
+    left: 13.5vw;
+  }
+  .catagory-search-contnr {
+    display: none;
+  }
+  .catagory-popup-cnt.active {
+    display: none;
+  }
+  .catagory-popup-cnt {
+    display: none;
+  }
+  .bag-ctgrs-contnr {
+    display: none;
+  }
+  .main-contnr {
+    width: 100%;
+  }
+  .cards-contnr {
+    width: 96%;
+    grid-column-gap: 0.5%;
+    grid-row-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+  }
+  .card {
+    height: 280px;
+  }
+
+  .card-sub-contnr {
+    position: relative;
+  }
+
+  .card-img {
+    height: 196px;
+  }
+
+  .c-sub-img {
+    height: 196px;
+  }
+
+  .card-text-contnr {
+    height: 84px;
+  }
+
+  .item-cost {
+    font-size: 17px;
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+  }
+
+  .off-item-cost {
+    font-size: 14px;
+    position: relative;
+    left: 18px;
+    top: 0px;
+  }
+
+  .amazon-button {
+    height: 35px;
+    width: 120px;
+    border-radius: 15px;
+  }
+
+  .amzn-btn-text {
+    position: relative;
+    left: 3px;
+    font-size: 18px;
+  }
+
+  .fa-amazon {
+    font-size: 25px;
+    position: relative;
+    /* top: 5px; */
+  }
+
+  .c-text {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 910px) {
+  .cards-contnr {
+    grid-template-columns: auto auto auto auto auto;
+  }
+}
