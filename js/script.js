@@ -122,3 +122,5 @@ function Loading(){
 }
 
 // 
+
+let vidplyr = document.getElementsByClassName('videoD')
