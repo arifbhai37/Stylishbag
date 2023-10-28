@@ -53,7 +53,7 @@
 }
 .header-contnr {
   width: 100%;
-  height: 50px;
+  /* height: 80px; */
 }
 
 .logo-menu-cntnr {
@@ -65,58 +65,63 @@
 }
 .logo-text-menu {
   width: 100%;
-  height: 50px;
+  height: 80px;
   display: flex;
   align-items: center;
   flex-direction: row;
   background-color: rgb(0, 0, 0);
-  background-image: linear-gradient(to right, rgba(58, 58, 58, 0.883), #000);
+  /* background-image: linear-gradient(to right, rgba(58, 58, 58, 0.883), #000); */
+  background-image: url('/img/Hcf8a5927756e4373bf1d1b928f2d856fN.png');
   box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.16);
-}
+} 
 .logo-contnr {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   position: relative;
   left: 10px;
-  border-radius: 35px;
-  background-color: rgb(26, 26, 26);
+  border-radius: 40px;
+  background-color: rgb(27, 27, 28);
   box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.16);
 }
 .logo-contnr img {
+  position: relative;
   width: 100%;
   object-fit: cover;
+  border-radius: 38px;
+
+
 }
 .logo-text {
   position: relative;
   left: 17px;
   /* color: rgb(255, 5, 134); */
-  color: #fff;
+  color: rgb(234, 238, 255);
 
-  font-size: 15px;
+  font-size: 16px;
 }
 #verified-font {
   position: relative;
-  left: 20px;
-  color: #01acfc;
+  left: 25px;
+  color: hsl(199, 99%, 50%);
 }
 .viewDiv{
   display: inline-flex;
   align-items: center;
-  color: white;
+  color: rgb(20, 20, 20);
   position: absolute;
-  top: 37px;
+  top: 60px;
   right: 10px;
   font-size: 7px;
 
 }
 .viewDiv span{
-  font-size: 10px;
+  font-size: 15px;
 
 }
 .viewsPage{
   position: relative;
   right: 2px;
-  color: #00ff3c;
+  color: hsl(332, 99%, 50%);;
 }
 .search {
   width: 30px;
@@ -149,7 +154,7 @@
   border: none;
   outline: none;
   color: #fff;
-  font-size: 1.5em;
+  font-size: 1.7em;
 }
 
 .menu-btn.open {
@@ -225,12 +230,15 @@
   }
   .closeicon {
     display: none;
+    font-size: 30px !important;
   }
   .closeicon.closeicon2 {
     display: block;
   }
   .menuicon {
     display: block;
+    font-size: 30px !important;
+
   }
   .menuicon.Memuicon {
     display: none;
@@ -248,7 +256,7 @@
   display: none;
   position: fixed;
   right: 0rem;
-  top: 50px;
+  top: 80px;
   z-index: 9999 !important;
   width: 100%;
   height: 100%;
@@ -327,24 +335,27 @@
   color: #fff;
   background-color: rgb(48, 255, 248);
 } */
-
+/* ---------------Delibary all over indai---------------- */
 #amazicon3{
-  color: rgb(28, 28, 28);
+  color: rgb(255, 102, 0);
   margin-right: 15px;
   margin-bottom: 3px;
 
 }
 .ShipMassage{
   position: relative;
-  top: 50px;
+  top: 85px;
   width: 100%;
   height: 32px;
-  color: white;
+  color: rgb(230, 239, 255);
   display: flex;
   font-weight: 400;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(92deg, rgb(202, 30, 63), rgb(50, 28, 226) 116%);
+  /* background-image: linear-gradient(92deg, rgb(202, 30, 63), rgb(50, 28, 226) 116%); */
+}
+.trukcolor{
+  color: rgb(255, 102, 0);
 }
 /* -------------Navigation Button Icons------------- */
 .bNavButton{
@@ -552,7 +563,7 @@
 /* <!------------ BAG CATAGORIES ------------> */
 .bag-ctgrs-contnr {
   position: relative;
-  top: 55px;
+  top: 85px;
   width: 100%;
   overflow: hidden;
 }
@@ -616,6 +627,7 @@
   position: relative;
 }
 /* ----------Top 50 bags list----------- */
+
 .topbagslist{
   position: relative;
   /* top: 55px; */

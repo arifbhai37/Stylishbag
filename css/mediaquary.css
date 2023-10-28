@@ -6,6 +6,7 @@
 @media screen and (max-width: 810px) {
   .body-div-sbc {
     width: 100% !important;
+    top: 20px;
   }
 }
 @media screen and (min-width: 332px) {
