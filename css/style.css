@@ -12,14 +12,7 @@
   object-fit: cover;
 
 }
-/* @font-face {
-  font-family: "Poppins";
-  font-style: normal;
-  src: local('Poppins Regular'), local('Poppins-Regular'),
-    url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Taviraj:ital,wght@0,500;1,500&display=swap)
-      format('woff2');
-  font-display: swap;
-} */
+
 #preloader {
   display: block;
   height: 100vh;
@@ -65,7 +58,7 @@
 }
 .logo-text-menu {
   width: 100%;
-  height: 80px;
+  height: 70px;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -104,12 +97,13 @@
   left: 25px;
   color: hsl(199, 99%, 50%);
 }
+/* ----------- Views Count----------- */
 .viewDiv{
   display: inline-flex;
   align-items: center;
   color: rgb(20, 20, 20);
   position: absolute;
-  top: 60px;
+  top: 53px;
   right: 10px;
   font-size: 7px;
 
@@ -247,7 +241,7 @@
 .menu-btn {
   display: block;
 }
-@media screen and (min-width:780px){
+@media screen and (min-width:811px){
   .menu-btn {
     display: none;
   }
@@ -256,7 +250,7 @@
   display: none;
   position: fixed;
   right: 0rem;
-  top: 80px;
+  top: 70px;
   z-index: 9999 !important;
   width: 100%;
   height: 100%;
@@ -344,7 +338,7 @@
 }
 .ShipMassage{
   position: relative;
-  top: 85px;
+  top: 80px;
   width: 100%;
   height: 32px;
   color: rgb(230, 239, 255);
@@ -356,6 +350,36 @@
 }
 .trukcolor{
   color: rgb(255, 102, 0);
+}
+/* ---------Join Telegram for Best Deals--------- */
+.joinTelegram{
+  position: relative;
+  width: 100%;
+  top: 80px;
+}
+.showofferitems{
+  position: relative;
+
+}
+.showofferitems a img{
+width: 100%;
+object-fit: cover;
+}
+.tlgmButton{
+  position: relative;
+  width: 50%;
+  left: 8px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-image: linear-gradient(135deg, #3C8CE7 10%, #00EAFF 100%); 
+}
+.tlgmButton:hover{
+  background-image: linear-gradient(135deg, #43e97b 10%, #38f9d7 100%);
+}
+.tlgmButton a{
+  text-decoration: none;
+  color: #ffffff;
 }
 /* -------------Navigation Button Icons------------- */
 .bNavButton{
@@ -569,7 +593,7 @@
 }
 @media only screen and (min-width:780px){
   .bag-ctgrs-contnr{
-    display: none !important;
+    display: block;
   }
 }
 

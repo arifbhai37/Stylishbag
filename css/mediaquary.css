@@ -1,8 +1,20 @@
-@media screen and (max-width: 1600px) {
-  .body-div-sbc {
-    width: 75% !important;
+
+@media screen and (min-width:810px){
+  .Header{
+    width: 810px;
   }
+  .logo-contnr{
+    position: relative;
+  }
+  .bag-ctgrs-contnr{
+    width: 810px;
+  }
+  .body-div-sbc {
+    width: 810px;
+  }
+
 }
+
 @media screen and (max-width: 810px) {
   .body-div-sbc {
     width: 100% !important;
@@ -172,6 +184,6 @@
 }
 @media screen and (min-width: 910px) {
   .cards-contnr {
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
   }
 }

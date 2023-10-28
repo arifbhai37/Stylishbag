@@ -22,8 +22,8 @@ var swiper = new Swiper(".bag-ctgrs-subcontnr", {
       slidesPerGroup: 3,
      },
      810:{
-      slidesPerView: 0,
-      slidesPerGroup: 0,
+      slidesPerView: 3,
+      slidesPerGroup: 3,
      },
   },
   
