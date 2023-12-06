@@ -5,12 +5,11 @@
   box-sizing: border-box;
   font-family: "Poppins";
 }
-.logof{
+.logof {
   object-fit: cover;
 }
-.instaFont{
+.instaFont {
   object-fit: cover;
-
 }
 
 #preloader {
@@ -64,9 +63,9 @@
   flex-direction: row;
   background-color: rgb(0, 0, 0);
   /* background-image: linear-gradient(to right, rgba(58, 58, 58, 0.883), #000); */
-  background-image: url('/img/Hcf8a5927756e4373bf1d1b928f2d856fN.png');
+  background-image: url("/img/Hcf8a5927756e4373bf1d1b928f2d856fN.png");
   box-shadow: 0 1px 1px 0 rgba(255, 255, 255, 0.16);
-} 
+}
 .logo-contnr {
   width: 45px;
   height: 45px;
@@ -81,8 +80,6 @@
   width: 100%;
   object-fit: cover;
   border-radius: 38px;
-
-
 }
 .logo-text {
   position: relative;
@@ -98,7 +95,7 @@
   color: hsl(199, 99%, 50%);
 }
 /* ----------- Views Count----------- */
-.viewDiv{
+.viewDiv {
   display: inline-flex;
   align-items: center;
   color: rgb(20, 20, 20);
@@ -106,16 +103,14 @@
   top: 53px;
   right: 10px;
   font-size: 7px;
-
 }
-.viewDiv span{
+.viewDiv span {
   font-size: 15px;
-
 }
-.viewsPage{
+.viewsPage {
   position: relative;
   right: 2px;
-  color: hsl(332, 99%, 50%);;
+  color: hsl(332, 99%, 50%);
 }
 .search {
   width: 30px;
@@ -232,7 +227,6 @@
   .menuicon {
     display: block;
     font-size: 30px !important;
-
   }
   .menuicon.Memuicon {
     display: none;
@@ -241,7 +235,7 @@
 .menu-btn {
   display: block;
 }
-@media screen and (min-width:811px){
+@media screen and (min-width: 811px) {
   .menu-btn {
     display: none;
   }
@@ -296,7 +290,7 @@
   align-items: center;
   padding-left: 20px;
   padding-right: 10px;
-  background: linear-gradient(to right,rgb(255, 111, 0),white,green);
+  background: linear-gradient(to right, rgb(255, 111, 0), white, green);
 
   /* background-color: rgb(175, 175, 175); */
 }
@@ -306,7 +300,6 @@
   text-decoration: none;
   cursor: pointer;
   font-size: 20px;
-
 }
 .home_head a:hover {
   color: rgb(38, 38, 38);
@@ -330,13 +323,12 @@
   background-color: rgb(48, 255, 248);
 } */
 /* ---------------Delibary all over indai---------------- */
-#amazicon3{
+#amazicon3 {
   color: rgb(255, 102, 0);
   margin-right: 15px;
   margin-bottom: 3px;
-
 }
-.ShipMassage{
+.ShipMassage {
   position: relative;
   top: 80px;
   width: 100%;
@@ -348,53 +340,51 @@
   align-items: center;
   /* background-image: linear-gradient(92deg, rgb(202, 30, 63), rgb(50, 28, 226) 116%); */
 }
-.trukcolor{
+.trukcolor {
   color: rgb(255, 102, 0);
 }
 /* ---------Join Telegram for Best Deals--------- */
-.joinTelegram{
+.joinTelegram {
   position: relative;
   width: 100%;
   top: 80px;
 }
-.showofferitems{
+.showofferitems {
   position: relative;
-
 }
-.showofferitems a img{
-width: 100%;
-object-fit: cover;
+.showofferitems a img {
+  width: 100%;
+  object-fit: cover;
 }
-.tlgmButton{
+.tlgmButton {
   position: relative;
   width: 50%;
   left: 8px;
   height: 30px;
   border-radius: 5px;
   border: none;
-  background-image: linear-gradient(135deg, #3C8CE7 10%, #00EAFF 100%); 
+  background-image: linear-gradient(135deg, #3c8ce7 10%, #00eaff 100%);
 }
-.tlgmButton:hover{
+.tlgmButton:hover {
   background-image: linear-gradient(135deg, #43e97b 10%, #38f9d7 100%);
 }
-.tlgmButton a{
+.tlgmButton a {
   text-decoration: none;
   color: #ffffff;
 }
-@media screen and (min-width:810px) {
-  .joinTelegram{
+@media screen and (min-width: 810px) {
+  .joinTelegram {
     width: 810px;
   }
-  
 }
 /* -------------Navigation Button Icons------------- */
-.bNavButton{
+.bNavButton {
   position: fixed;
   bottom: 0px;
   z-index: 999999999999;
   background-color: #ff0000;
 }
-.bnList{
+.bnList {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -597,8 +587,8 @@ object-fit: cover;
   width: 100%;
   overflow: hidden;
 }
-@media only screen and (min-width:780px){
-  .bag-ctgrs-contnr{
+@media only screen and (min-width: 780px) {
+  .bag-ctgrs-contnr {
     display: block;
   }
 }
@@ -658,34 +648,33 @@ object-fit: cover;
 }
 /* ----------Top 50 bags list----------- */
 
-.topbagslist{
+.topbagslist {
   position: relative;
   /* top: 55px; */
   margin: 1rem 0.7rem;
 }
-.topbagslist h2{
+.topbagslist h2 {
   text-align: center;
   color: #fd4381;
-  
 }
-.topbagslist h2 span{
+.topbagslist h2 span {
   position: relative;
   left: 5px;
   font-size: 20px;
   text-align: center;
   color: #ffffff;
 }
-._50list{
+._50list {
   width: 100%;
   height: 2rem;
-  margin: .6rem 0;
+  margin: 0.6rem 0;
   border-radius: 5px;
   display: flex;
   align-items: center;
   /* background-color: #114e55; */
-  background: linear-gradient(to right,#01606e,#03abc4,rgb(210, 210, 210));
+  background: linear-gradient(to right, #01606e, #03abc4, rgb(210, 210, 210));
 }
-._50list a{
+._50list a {
   display: flex;
   padding-left: 1rem;
   align-items: center;
@@ -693,29 +682,41 @@ object-fit: cover;
   stroke: 2px solid #000;
   text-decoration: none;
   font-size: 18px;
-
 }
-._50list a span{
+._50list a span {
   margin-left: 5px;
   position: absolute;
-right: 1rem;
-color: #000000;
+  right: 1rem;
+  color: #000000;
 }
 /* -----------Video------------ */
-.videoD{
+.videoD {
   position: relative;
   top: 60px;
   padding: 20px;
   width: 100%;
 }
-.mainvideo{
+.mainvideo {
   width: 100% !important;
-  border:5px solid #ffffff;
+  border: 5px solid #ffffff;
   border-radius: 5px;
 }
-@media screen and (min-width:810px) {
-  
+@media screen and (min-width: 810px) {
 }
+/* -----Reels Products----- */
+.reels_mHeadline {
+  margin-bottom: 7px;
+  font-size: large;
+}
+.reels_iconImg {
+  position: relative;
+  top: 10px;
+  padding-right: 8px;
+}
+#expand-more-logo{
+  font-size: 16px;
+}
+
 /* ----- Main Part Of the Website ------ */
 .main-headline {
   position: relative;
@@ -860,7 +861,7 @@ color: #000000;
   position: relative;
   top: 3px;
   /* background-color: #00adc0; */
-  background:linear-gradient(to right,#ff2d57,#ffbc56);
+  background: linear-gradient(to right, #ff2d57, #ffbc56);
   padding: 0px 0px 0px 5px;
   border-radius: 5px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
