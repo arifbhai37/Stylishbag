@@ -116,10 +116,10 @@ var swiper = new Swiper(".AmznAdsCont_", {
 
 // <-------------------------------------Preloader Script------------------------------>
 
-let preloader = document.getElementById("preloader")
-function Loading(){
-  preloader.style.display='none';
-}
+// let preloader = document.getElementById("preloader")
+// function Loading(){
+//   preloader.style.display='none';
+// }
 
 // 
 
