@@ -18,13 +18,13 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  /* background: #fff url("/img/preloading.gif") no-repeat center; */
+  background: #fff url("/img/preloading.gif") no-repeat center;
   background-size: 65px;
   z-index: 999999;
 }
-#preloader svg{
+/* #preloader svg{
   width: 200px;
-}
+} */
 .MainBody {
   width: 100%;
   display: flex;
