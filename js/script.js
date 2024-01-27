@@ -72,6 +72,49 @@ var swiper = new Swiper(".topBag_slide_content", {
   //   prevEl: ".swiper-button-prev",
   // },
 });
+// -------------------------------------------------------------------
+var swiper = new Swiper(".gift_items_slide", {
+  slidesPerView: 1,
+  spaceBetween: 6,
+  slidesPerGroup: 2,
+  loop: true,
+  centerSlide: "true",
+  fade: "true",
+  grabCursor: "true",
+  centeredSlides: false,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+    },
+    520: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+    },
+    810: {
+      slidesPerView: 4,
+      slidesPerGroup: 4,
+    },
+    1280: {
+      slidesPerView: 4,
+      slidesPerGroup: 4,
+    },
+  },
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
+});
 // -----------------------------------------------------
 
 // var swiper = new Swiper(".card-img", {
