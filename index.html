@@ -29,10 +29,12 @@
   <!-- Plyr.io -->
   <link rel="stylesheet" href="https://cdn.plyr.io/3.7.7/plyr.css" />
   <script src="https://cdn.plyr.io/3.7.7/plyr.polyfilled.js"></script>
-
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/js/counter.js"></script>
+  <script src="/app.js"></script>
 </head>
 
-<body onload="Loading()" class="MainBody">
+<body  class="MainBody">
   <!-- onload ="Loading()" its for example
   -->
   <!-- <div id="preloader"></div> -->
@@ -45,8 +47,23 @@
             <img src="img/My project-1 (15).png" alt="Logo" />
           </div>
           <div class="logo-text">Stylish Bag Collection</div>
-          <span style="font-size: 15px" id="verified-font" class="material-icons">verified</span>
-          <div class="viewDiv"><span class="material-icons viewsPage">visibility</span>56.98K</div>
+          <span  id="verified-font" class="material-icons text-lg">verified</span>
+
+          <!----------------------- Page view count-------------- -->
+          <div id="container" class="fixed top-11 right-10 ">
+            <div class="hidden">
+              <span id="pageviews-count" ></span> 
+              <h4></h4>
+            </div>
+            <div class="flex flex-col">
+              <span id="visits-count" class="material-icons text-lg">visibility</span>
+              <h4></h4>
+            </div>
+          </div> 
+
+
+
+          <!-- ---------------------------- -->
           <button type="button" class="menu-btn">
             <span class="material-icons menuicon">menu</span>
             <span class="material-icons closeicon">close</span>
@@ -176,13 +193,16 @@
   <div class="joinTelegram">
     <div class="showofferitems">
       <a href="https://telegram.me/stylishbagcollection"><img
-          src="https://m.media-amazon.com/images/G/31/INAssociates/2020/AC/Telegram_Banner.jpg" alt=""></a>
+          src="https://m.media-amazon.com/images/G/31/INAssociates/2020/AC/Telegram_Banner.jpg" alt="Join Telegram"></a>
     </div>
-    <button class="tlgmButton"><a href="https://telegram.me/stylishbagcollection">Join Telegram Now!</a></button>
+    <div class="telegram-best9-div">
 
-
-    <!-- Templete Post Products -->
-    <button class="templetePostProducts" type="button"><a href="/temple-products/01.html">Template Products</a></button>
+      <button class="tlgmButton"><a href="https://telegram.me/stylishbagcollection">Join Telegram </a></button>
+      
+      
+      <!-- Templete Post Products -->
+      <button class="templetePostProducts" type="button"><a href="/temple-products/02.html"> <img src="/img/best-seller.png" alt="best-seller-icon"> Best 9 </a></button>
+    </div>
   </div>
 
   
@@ -772,6 +792,32 @@
     <main class="Main">
       <div class="main-contnr">
         <div class="cards-contnr">
+          <div class="card">
+            <div class="card-sub-contnr">
+              <a href="/temple-products/02.html" class="card-link">
+                <div class="card-img">
+                  <div class="c-sub-img">
+                    <img src="/img/02.png"
+                      alt="9 Ultimate protective guard stell shoes
+                      "
+                      class="c-main-img" />
+                  </div>
+                </div>
+                <div class="card-text-contnr">
+                  <div class="cost">
+                    <div class="item-cost"></div>
+                    <div class="off-item-cost"></div>
+                  </div>
+                  <div class="amazon-button">
+                    <div class="amzn-btn-text">
+                      BUY ON <span class="fa-brands fa-amazon"></span>
+                    </div>
+                  </div>
+                  <div class="c-text">Click Here</div>
+                </div>
+              </a>
+            </div>
+          </div>
           <div class="card">
             <div class="card-sub-contnr">
               <a href="https://amzn.to/4aYZuKV" class="card-link">

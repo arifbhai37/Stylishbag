@@ -349,7 +349,7 @@
 .joinTelegram {
   position: relative;
   width: 100%;
-  top: 80px;
+  top: 78px;
 }
 .showofferitems {
   position: relative;
@@ -357,6 +357,13 @@
 .showofferitems a img {
   width: 100%;
   object-fit: cover;
+}
+.telegram-best9-div{
+  position: relative;
+  top: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .tlgmButton {
   position: relative;
@@ -390,9 +397,13 @@
   height: 30px;
   border-radius: 5px;
   border: none;
-  background-image: linear-gradient(135deg, #e73c4a 10%, #ff008c 100%);
+  background-image: linear-gradient(135deg, #1b1b1c53 10%, #ff5f25 100%);
 }
 .templetePostProducts a{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
   color: white;
 }
